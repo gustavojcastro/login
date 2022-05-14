@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(63, 64, 63);*/
+    
+}
+ body {
+    font-family: 'Macondo', cursive;
+    background-color: rgb(241, 239, 235);
+    
+ }
+ 
+
+ .container {
+     /*background: black;*/
+     display: flex;
+     justify-content: center;
+     height: 100vh;
+     align-items: center;
+
+ }
+
+ .login {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: rgb(64, 64, 73);
+     border-radius: 10px;
+     padding: 20px;
+     gap: 20px;
+     box-shadow: 0px 0px 11px 4px rgba(12, 9, 27, 0.599);
+     
+ }
+
+ .login img {
+     width: 150px;
+
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+  input {
+      height: 50px;
+      border-radius: 5px;
+      border: 1px solid grey;
+      padding: 20px; 
+      box-shadow: 1px 8px 12px 2px rgba(31, 1, 165, 0.67);
+  }
+
+input:focus {
+    outline: none;
+}
+
+.boton { 
+    background-color: rgb(53, 3, 96);
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.login a:hover {
+    background-color: rgb(9, 7, 7);
+    color: white;
+    transform: scale(1.1);
+    transition: all .4s;
+}
+
+
+
+
+
